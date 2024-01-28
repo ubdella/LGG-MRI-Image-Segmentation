@@ -32,5 +32,6 @@ This will segment the MRI image and save the output to the `outputs` directory.
 The UNet model was able to achieve a Dice score of 0.85 on the LGG MRI Segmentation dataset. This means that the model was able to correctly segment 85% of the LGGs in the dataset.
 
 ## References
-* Pytorch-UNet-Brain-MRI: https://github.com/PurabPatel555/Pytorch-UNet-Brain-MRI
+* Original UNet Paper: https://arxiv.org/abs/1505.04597
+* Some of the initial data visualization code was adapted from this notebook of a Keras UNet: https://www.kaggle.com/monkira/brain-mri-segmentation-using-unet-keras/notebook
 * LGG MRI Segmentation dataset: https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
