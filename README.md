@@ -20,16 +20,12 @@ python train.py
 
 This will train the UNet model on the LGG MRI Segmentation dataset. The trained model will be saved to the `models` directory.
 
-To segment an MRI image, you can use the following command:
-
-
-python segment.py --image <path_to_image>
 
 
 This will segment the MRI image and save the output to the `outputs` directory.
 
 ## Results
-The UNet model was able to achieve a Dice score of 0.85 on the LGG MRI Segmentation dataset. This means that the model was able to correctly segment 85% of the LGGs in the dataset.
+The UNet model was able to achieve a Dice score of 0.85 on the LGG MRI Segmentation dataset.
 
 ## References
 * Original UNet Paper: https://arxiv.org/abs/1505.04597
